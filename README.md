@@ -12,7 +12,13 @@ Controladoria analítica, precificação e BI para e-commerce multicanal. Dispon
 ## Projeto em destaque
 
 **[margem-real-motor-de-preco](https://github.com/AndressaCO/margem-real-motor-de-preco)**
-SQL (DuckDB) + Python que mostra onde um markup único destrói margem por canal. Dados sintéticos, 26 testes, conta aberta e limites declarados.
+Três camadas sobre um mesmo problema, com a conta aberta e os limites declarados:
+
+- **Controladoria**: preço mínimo, margem por SKU e canal, alíquota efetiva do Simples (Anexo I) e matriz de controles.
+- **Engenharia de dados**: carga idempotente com contrato de schema, quarentena, linhagem, conciliação e SLA de frescor (DuckDB).
+- **Avaliação de agente**: ferramentas somente leitura e harness de avaliação (pass@k, pass^k, conjunto held-out). O planejador incluído é um stand-in de regras, não um LLM.
+
+Dados sintéticos · 119 testes · CI em Python 3.11–3.13.
 
 ## Stack
 
