@@ -11,7 +11,7 @@ Controladoria analítica, precificação e BI para e-commerce multicanal. Dispon
 
 ## Projeto em destaque
 
-**[margem-real-motor-de-preco](https://github.com/SEU-USUARIO/margem-real-motor-de-preco)**
+**[margem-real-motor-de-preco](https://github.com/AndressaCO/margem-real-motor-de-preco)**
 SQL (DuckDB) + Python que mostra onde um markup único destrói margem por canal. Dados sintéticos, 26 testes, conta aberta e limites declarados.
 
 ## Stack
@@ -20,6 +20,6 @@ SQL (DuckDB) + Python que mostra onde um markup único destrói margem por canal
 
 ## Contato
 
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL) · e-mail: SEU-EMAIL
+[LinkedIn](https://www.linkedin.com/in/andressacunhaoficial) · [andressacunha.com.br](https://andressacunha.com.br)
 
 *Todos os projetos públicos usam dados sintéticos.*
